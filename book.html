@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Books</title>
+        <style>
+             *{padding: 0;margin: 0;box-sizing: border-box ;}
+            #card1{
+            }
+            #container{
+                display: inline-flex;
+
+            }
+            .html{
+                width: 300px;
+                height: 410px;
+                background-color: white;
+                overflow: hidden;
+                border: 2px solid rgb(6, 6, 233);
+                text-align: justify;
+                padding: 10px;
+                margin: 25px; 
+                margin-left: 55px;
+                margin-right: 10px;
+                border-radius: 4%;
+            }
+            .image{
+                margin: 10px;
+            }
+            .html img{
+                width: 100%;
+                height: 150px;
+                border-radius: 10px;
+            }
+            .html h3{
+                width: 100%;
+                text-align: center;
+            }
+            .mybutton{
+                display: block;
+                margin-top: 100px;
+                text-decoration: none;
+                color: white;
+                font-family: arial;
+                background-color: red;
+                padding: 10px 20px;
+                border-radius: 10px;
+                
+            }
+            .mybutton:hover{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(190, 185, 185);">
+        <h1 style="color: white; padding-left: 300px; margin-left: 300px;">Find All The Books Here.</h1>
+        <div id="container">
+            <div class="html" id="card1">
+                <div class="image">
+                    <img src="./ithtml.png" alt="">
+                </div>
+                <h3>Introduction To HTML</h3>
+                <p style="margin: 10px;">Author: Jon Duckett.</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="./Pratical5-htmlpage.html" target="_blank" class="mybutton">Read</a>
+                    </div>
+            </div>
+            <div class="html" id="card2">
+                <div class="image">
+                    <img src="./csssmall.png" alt="">
+                </div>
+                <h3>Introduction To CSS</h3>
+                <p style="margin: 10px;">Author:  Elisabeth Robson.</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="./Practical5-csspage.html" target="_blank" class="mybutton">Read</a>
+                    </div>
+            </div>
+            <div class="html" id="card3">
+                <div class="image">
+                    <img src="./jquery.png" alt="">
+                </div>
+                <h3>Introduction To JavaScript</h3>
+                <p style="margin: 10px;">Author: Bear Bibeault.</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="./Practical5-jspage.html" target="_blank" class="mybutton">Read</a>
+                     </div>
+            </div>
+            <div class="html" id="card4">
+                <div class="image">
+                    <img src="./bootstrapsmall-1.jpg" alt="">
+                </div>
+                <h3>Introduction To Bootstrap</h3>
+                <p style="margin: 10px;">Author: Jacob Lett.</p>
+                    <div class="button" style="text-align: center;">
+                    <a href="./Practical5-bootstrappage.html" target="_blank" class="mybutton">Read</a>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
